@@ -1,5 +1,6 @@
-function sayHello(message, ...names){
-  names.forEach(name => console.log(`${message} ${name}`));
-}
-
-sayHello('Hello', "John", "Smith", "Doe");
+function Massageing(respect, ...names){
+    names.forEach(names => {
+        console.log(`${respect} ${names}`);
+    });
+};
+Massageing('Dear', "main", 'mijan', 'marjan');
