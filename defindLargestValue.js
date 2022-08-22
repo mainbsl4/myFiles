@@ -5,10 +5,10 @@ function maxArray(numbers){
             const element = numbers[index];
             if(element > largest){
                 largest = element;
-            }
-        }
+            };
+        };
     return largest;
-}
+};
 const myArray = [12, 25, 55, 887, 66];
 const totalArray = maxArray(myArray);
 console.log(totalArray);
