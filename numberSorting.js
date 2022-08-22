@@ -8,8 +8,8 @@
 
             numbers[i] = numbers[j];
             numbers[j] = k;
-        }
+        };
         console.log(numbers);
-    }
+    };
     
 }
